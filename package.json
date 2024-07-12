@@ -1,0 +1,31 @@
+{
+  "name": "cor-playwright",
+  "version": "1.0.0",
+  "description": "Simple example for Playwright and change of repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "typescript",
+    "vitest",
+    "chain of repository"
+  ],
+  "author": "knguyen30111@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "playwright": "^1.45.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^2.0.2",
+    "vitest": "^2.0.2"
+  }
+}
